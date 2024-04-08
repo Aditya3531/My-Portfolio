@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.02rem;
+}
+
+main hr {
+  border: 0;
+  background-color: #9c97f1;
+  height: 1.2px;
+  margin: 40px 85px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 0;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 3rem;
+}
+
+.leftSection .btn {
+  background-color: rgb(18, 18, 62);
+  padding: 12px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.leftSection .btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: red;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+
+.box {
+  background-color: white;
+  width: 75vw;
+  height: 2px;
+  margin: 55px 0;
+  display: flex;
+}
+
+.vertical {
+  height: 95px;
+  width: 1px;
+  background-color: white;
+  margin-right: 511px;
+}
+
+.image-top {
+  width: 25px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+#School {
+  width: 33px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 85px;
+  color: gray;
+  width: 150px;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    flex-wrap: wrap;
+  }
+
+  nav {
+    height: 50px;
+    width: 100%;
+  }
+
+  nav .left {
+    font-size: small;
+  }
+
+  nav ul li {
+    font-size: smaller;
+    margin-left: 3px;
+  }
+
+  .left {
+    margin-left: 6px;
+  }
+
+  ul {
+    margin-left: 40px;
+  }
+
+  .leftSection {
+    font-size: 15px;
+  }
+
+  .firstSection {
+    margin: 70px 0;
+  }
+
+  .firstSection > div {
+    width: 35%;
+  }
+
+  .leftSection .btn {
+    padding: 0%;
+    font-size: 8px;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 2px;
+  }
+
+  .secondSection {
+    margin: 0 25px;
+    height: 280px;
+  }
+
+  .text-gray {
+    font-size: smaller;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80.3vw;
+  }
+
+  .vertical {
+    align-content: space-evenly;
+    height: 30px;
+    margin: 0 82px;
+  }
+
+  .vertical-title {
+    width: 50px;
+    top: 5px;
+    font-size: 7px;
+    margin-right: 70px;
+  }
+
+  .vertical-desc {
+    top: 6px;
+    width: 50px;
+    font-size: 5px;
+    margin-right: 7px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav .left {
+    font-size: smaller;
+  }
+
+  nav ul li {
+    font-size: 10px;
+    margin-left: 1px;
+    margin-right: 10px;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  .leftSection {
+    font-size: 10px;
+  }
+
+
+
+  .leftSection .btn {
+    padding: 0%;
+    font-size: 4px;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 1px;
+  }
+
+  .vertical {
+    margin-inline: 52px;
+  }
+}
